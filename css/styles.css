@@ -849,12 +849,11 @@ color: rgba(46, 47, 66, 0.40);
 /* agreement */
 
 .modal-form-checkbox-container {
+display: flex;
 margin-bottom: 24px; 
 }
 
 .modal-form-agreement {
-align-items: center;
-gap: 8px;
 margin-bottom: 24px;
 font-size: 12px;
 line-height: 1.17;
@@ -876,10 +875,11 @@ fill: var(--background-color-button);
 }
 
 .modal-form-custom-checkbox {
+display: inline-flex;
 align-items: center;
 justify-content: center;
-display: inline-flex;
 fill: transparent;
+margin-right: 8px;
 width: 16px;
 height: 16px;
 border-radius: 2px;
