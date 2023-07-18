@@ -872,7 +872,7 @@ background-color: var(--modal-color);
 fill: var(--background-color-button);
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox > .modal-form-checkbox-icon {
+.modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox > .modal-form-checkbox-icon {
     opacity: 1;
 }
 
