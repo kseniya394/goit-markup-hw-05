@@ -866,7 +866,7 @@ color: var(--modal-text-color);
 .modal-form-checkbox {
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+.modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox {
 border: none;
 background-color: var(--modal-color); 
 fill: var(--background-color-button);
