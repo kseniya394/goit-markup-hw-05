@@ -877,9 +877,9 @@ fill: var(--background-color-button);
 }
 
 .modal-form-custom-checkbox {
-display: inline-flex;
 align-items: center;
 justify-content: center;
+display: inline-flex;
 fill: transparent;
 width: 16px;
 height: 16px;
